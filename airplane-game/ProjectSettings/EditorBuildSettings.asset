@@ -14,7 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/airplane-game.unity
     guid: ce8368075badc214ea3c810e5cb294d0
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/PopUp.unity
     guid: c8a8158d4ee6b40a6aea1a14cb703e75
   m_configObjects: {}
