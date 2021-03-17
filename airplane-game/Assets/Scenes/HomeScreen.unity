@@ -1392,7 +1392,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ba930e6b1ccc534892434fee5f1fe47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  f: https://vk.com/koviello https://vk.com/koviello
+  f: https://vk.com/koviello
+  f2: https://vk.com/defoldsen
 --- !u!1 &1288100826
 GameObject:
   m_ObjectHideFlags: 0
@@ -2231,10 +2232,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1847453160}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4ba930e6b1ccc534892434fee5f1fe47, type: 3}
+  m_Script: {fileID: 11500000, guid: d88f38abd36545546be34fc78799fe2e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  f: https://vk.com/defoldsen
+  d: https://vk.com/defoldsen
 --- !u!1 &1904915932
 GameObject:
   m_ObjectHideFlags: 0

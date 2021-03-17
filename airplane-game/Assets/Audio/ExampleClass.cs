@@ -16,17 +16,22 @@ public class ExampleClass : MonoBehaviour
 
     void Update()
     {
-		if(Pe == false && Input.GetKeyDown(KeyCode.Space))
-		{
-			audioSource.Play();
-			Pe = true;
-		}
-		if (Peo == true && Input.GetKeyDown(KeyCode.Space)){
-			audioSource.volume = 0.0002f;
-		}
-		if (Peo == false && Input.GetKeyDown(KeyCode.Space)){
-			audioSource.volume = 0.02f;
-		
-		}
+        if(Pe == false && Input.GetKeyDown(KeyCode.Space))
+        {
+            audioSource.Play();
+            Pe = true;
+        }
+
+        if (Peo == false && Input.GetKeyDown(KeyCode.Space)){
+            audioSource.volume = 0.02f;
+            Peo = true;
+
+
+        }
+        else if (Peo == true && Input.GetKeyDown(KeyCode.Space)){
+            audioSource.volume = 0.0001f;
+            Peo = false;
+
+        }
     }
 }
