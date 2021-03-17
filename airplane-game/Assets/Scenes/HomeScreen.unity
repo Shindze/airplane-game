@@ -2235,7 +2235,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d88f38abd36545546be34fc78799fe2e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  d: https://vk.com/defoldsen
+  d: https://github.com/Shindze/airplane-game
 --- !u!1 &1904915932
 GameObject:
   m_ObjectHideFlags: 0
